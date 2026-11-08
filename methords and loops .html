@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript string methods</h2>
+    <p>Basic methords</p>
+    <script>
+        var str = "AmAzing";
+        document.write(str.toUpperCase());
+        document.write("<br>");
+         document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith('i'));
+        document.write("<br>");
+         
+        //test Metord -> returns true or false
+        var strl = "I leart about Methords";
+        var patt = new RegExp( "about" );
+        var res = patt.test(strl);
+        document.write(res);
+    </script>
+</body>
+</html>
